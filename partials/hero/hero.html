@@ -1,11 +1,7 @@
 <div class="hero">
   <h1>{{partial.title}}</h1>
-  <div class="push">
-    {{partial.subtitle}}
-  </div>
-  {% if partial.cta %}
-  <div>
-    <a href="{{partial.cta.url}}" class="button">{{partial.cta.title}}</a>
-  </div>
-  {% endif %}
+  {% if partial.terminal_lines %} {% for line in partial.terminal_lines %}
+  <p>{{line}}</p>
+  {% endfor %} {% endif %}
+  <div class="push">{{partial.subtitle}}</div>
 </div>
