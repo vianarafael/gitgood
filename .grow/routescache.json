@@ -1,5 +1,137 @@
 {
-  "concrete": {},
+  "concrete": {
+    "__None__": {
+      "/": {
+        "options": {},
+        "value": {
+          "hashed": "214bcd5d1a08f4cbdfad2e5de8caa51e2bdca5dc9b192cccb6f654b9f6b0476b",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "en",
+            "pod_path": "/content/pages/home.yaml"
+          },
+          "pod_path": "/content/pages/home.yaml"
+        }
+      },
+      "/projects/": {
+        "options": {},
+        "value": {
+          "hashed": "791820a372311621519a4f0ce52774d1577b481cf8a2323dbc60b80cadcb1ac3",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "en",
+            "pod_path": "/content/pages/projects.md"
+          },
+          "pod_path": "/content/pages/projects.md"
+        }
+      },
+      "/sitemap.xml": {
+        "options": null,
+        "value": {
+          "hashed": null,
+          "kind": "sitemap",
+          "meta": {
+            "collections": null,
+            "filters": null,
+            "locales": null,
+            "path": "/sitemap.xml",
+            "template": null
+          },
+          "pod_path": null
+        }
+      },
+      "/static/_posts/blog/1999-12-31-lets-party.md": {
+        "options": null,
+        "value": {
+          "hashed": "c6284cd8e59312ca355f5a2ae1ed4b73bbb178674cff9a36993c248ca7c260d2",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/_posts/blog/1999-12-31-lets-party.md",
+            "static_filter": {}
+          },
+          "pod_path": "/static/_posts/blog/1999-12-31-lets-party.md"
+        }
+      },
+      "/static/admin/config.yaml": {
+        "options": null,
+        "value": {
+          "hashed": "6313db88056347a0a02f486ae25ab87cbf771ff866351838149c4b600c0242b9",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/admin/config.yaml",
+            "static_filter": {}
+          },
+          "pod_path": "/static/admin/config.yaml"
+        }
+      },
+      "/static/admin/index.html": {
+        "options": null,
+        "value": {
+          "hashed": "570c73c63114403ccc12c6e160c9d1b45ef7a54eb8844f7975999430b0d8b199",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/admin/index.html",
+            "static_filter": {}
+          },
+          "pod_path": "/static/admin/index.html"
+        }
+      },
+      "/static/images/favicon.png": {
+        "options": null,
+        "value": {
+          "hashed": "cf5d45b115172f06666cb5d4bd24be8ad86e1df409f276b3b22b15f9e5bb3e66",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon.png",
+            "static_filter": {}
+          },
+          "pod_path": "/static/images/favicon.png"
+        }
+      }
+    }
+  },
   "dynamic": {
     "dev": {
       "/": {
@@ -47,7 +179,10 @@
             "source_formats": [
               "/dist/css/"
             ],
-            "static_filter": {}
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
           },
           "pod_path": null
         }
@@ -71,7 +206,10 @@
             "source_formats": [
               "/dist/js/"
             ],
-            "static_filter": {}
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
           },
           "pod_path": null
         }
@@ -123,7 +261,10 @@
             "source_formats": [
               "/static/"
             ],
-            "static_filter": {}
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
           },
           "pod_path": null
         }
