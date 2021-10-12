@@ -12,6 +12,12 @@
     "/static/images/favicon.png"
   ],
   "/content/pages/projects.md": [
-    "/content/pages/projects.md"
+    "/content/pages/home.yaml",
+    "/content/pages/projects.md",
+    "/dist/css/composite/global.min.css",
+    "/dist/js/composite/global.min.js",
+    "/partials/footer/footer.html",
+    "/partials/header/header.html",
+    "/static/images/favicon.png"
   ]
 }
